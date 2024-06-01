@@ -8,8 +8,8 @@
 
 Ultrasonic ultrasonic(TRIGGER_PIN, ECHO_PIN); // Define ultrasonic sensor object
 
-const char* ssid = "shadhani";
-const char* password = "123456789";
+const char* ssid = "YOUR_SSID";
+const char* password = "YOUR_PASSWORD";
 
 WiFiServer server(80);
 
